@@ -1,10 +1,9 @@
 public class Coche {
 
-    int numeroPuertas;
+    private int numeroPuertas;
 
-    public void incrementoPuertas(int n){
-        n++;
-        System.out.println(n);
+    public Coche(int numeroPuertas) {
+        this.numeroPuertas = numeroPuertas;
     }
 
     public int getNumeroPuertas() {
@@ -14,4 +13,11 @@ public class Coche {
     public void setNumeroPuertas(int numeroPuertas) {
         this.numeroPuertas = numeroPuertas;
     }
+
+    public void incrementoPuertas(int n){
+        n++;
+        System.out.println(n);
+    }
+
+
 }

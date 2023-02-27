@@ -1,8 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         sumaNumeros(3,4,5);
-        Coche miCoche = new Coche();
-        miCoche.setNumeroPuertas(1);
+        Coche miCoche = new Coche(4);
         miCoche.incrementoPuertas(miCoche.getNumeroPuertas());
     }
     public static void sumaNumeros(int num1, int num2, int num3){
